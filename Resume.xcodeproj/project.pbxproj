@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		262B46B119709E5100C6D4A4 /* SkillCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 262B46B019709E5100C6D4A4 /* SkillCell.m */; };
+		262B46B41970A72E00C6D4A4 /* SelectionsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 262B46B31970A72E00C6D4A4 /* SelectionsTableViewCell.m */; };
 		263FDD95197075D900F95D76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 263FDD94197075D900F95D76 /* Foundation.framework */; };
 		263FDD97197075D900F95D76 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 263FDD96197075D900F95D76 /* CoreGraphics.framework */; };
 		263FDD99197075D900F95D76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 263FDD98197075D900F95D76 /* UIKit.framework */; };
@@ -21,6 +23,7 @@
 		263FDDB6197075D900F95D76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 263FDD98197075D900F95D76 /* UIKit.framework */; };
 		263FDDBE197075D900F95D76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 263FDDBC197075D900F95D76 /* InfoPlist.strings */; };
 		263FDDC0197075D900F95D76 /* ResumeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 263FDDBF197075D900F95D76 /* ResumeTests.m */; };
+		2684F0081970915B004172AF /* Dense-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2684F0071970915B004172AF /* Dense-Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		262B46AF19709E5100C6D4A4 /* SkillCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkillCell.h; sourceTree = "<group>"; };
+		262B46B019709E5100C6D4A4 /* SkillCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkillCell.m; sourceTree = "<group>"; };
+		262B46B21970A72E00C6D4A4 /* SelectionsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionsTableViewCell.h; sourceTree = "<group>"; };
+		262B46B31970A72E00C6D4A4 /* SelectionsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionsTableViewCell.m; sourceTree = "<group>"; };
 		263FDD91197075D900F95D76 /* Resume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Resume.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		263FDD94197075D900F95D76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		263FDD96197075D900F95D76 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +60,7 @@
 		263FDDBB197075D900F95D76 /* ResumeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ResumeTests-Info.plist"; sourceTree = "<group>"; };
 		263FDDBD197075D900F95D76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		263FDDBF197075D900F95D76 /* ResumeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResumeTests.m; sourceTree = "<group>"; };
+		2684F0071970915B004172AF /* Dense-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dense-Regular.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +125,10 @@
 				263FDDA6197075D900F95D76 /* Main.storyboard */,
 				263FDDA9197075D900F95D76 /* ViewController.h */,
 				263FDDAA197075D900F95D76 /* ViewController.m */,
+				262B46AF19709E5100C6D4A4 /* SkillCell.h */,
+				262B46B019709E5100C6D4A4 /* SkillCell.m */,
+				262B46B21970A72E00C6D4A4 /* SelectionsTableViewCell.h */,
+				262B46B31970A72E00C6D4A4 /* SelectionsTableViewCell.m */,
 				263FDDAC197075D900F95D76 /* Images.xcassets */,
 				263FDD9B197075D900F95D76 /* Supporting Files */,
 			);
@@ -130,6 +142,7 @@
 				263FDD9D197075D900F95D76 /* InfoPlist.strings */,
 				263FDDA0197075D900F95D76 /* main.m */,
 				263FDDA2197075D900F95D76 /* Resume-Prefix.pch */,
+				2684F0071970915B004172AF /* Dense-Regular.otf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -162,6 +175,7 @@
 				263FDD8D197075D900F95D76 /* Sources */,
 				263FDD8E197075D900F95D76 /* Frameworks */,
 				263FDD8F197075D900F95D76 /* Resources */,
+				267927FF19708791002AC0F3 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -230,6 +244,7 @@
 			files = (
 				263FDDAD197075D900F95D76 /* Images.xcassets in Resources */,
 				263FDD9F197075D900F95D76 /* InfoPlist.strings in Resources */,
+				2684F0081970915B004172AF /* Dense-Regular.otf in Resources */,
 				263FDDA8197075D900F95D76 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,12 +259,30 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		267927FF19708791002AC0F3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = "/bin/bash -e";
+			shellScript = "mdfind -onlyin \"${SRCROOT}\" \"kMDItemContentTypeTree == public.font\" -0 | sort -z | xargs -0 /usr/local/bin/moarfonts install\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		263FDD8D197075D900F95D76 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				262B46B41970A72E00C6D4A4 /* SelectionsTableViewCell.m in Sources */,
 				263FDDAB197075D900F95D76 /* ViewController.m in Sources */,
+				262B46B119709E5100C6D4A4 /* SkillCell.m in Sources */,
 				263FDDA5197075D900F95D76 /* AppDelegate.m in Sources */,
 				263FDDA1197075D900F95D76 /* main.m in Sources */,
 			);
@@ -381,6 +414,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Resume/Resume-Prefix.pch";
 				INFOPLIST_FILE = "Resume/Resume-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -394,6 +428,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Resume/Resume-Prefix.pch";
 				INFOPLIST_FILE = "Resume/Resume-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -458,6 +493,7 @@
 				263FDDC5197075D900F95D76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		263FDDC6197075D900F95D76 /* Build configuration list for PBXNativeTarget "ResumeTests" */ = {
 			isa = XCConfigurationList;
@@ -466,6 +502,7 @@
 				263FDDC8197075D900F95D76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
